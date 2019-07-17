@@ -20,7 +20,7 @@ repositories {
 sourceSets {
     main {
         resources {
-            srcDirs "configuration/"
+            srcDirs "resources/"
         }
     }
 }
