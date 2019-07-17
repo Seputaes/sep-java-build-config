@@ -17,6 +17,14 @@ repositories {
     jcenter()
 }
 
+sourceSets {
+    main {
+        resources {
+            srcDirs "configuration/"
+        }
+    }
+}
+
 dependencies {
 }
 
