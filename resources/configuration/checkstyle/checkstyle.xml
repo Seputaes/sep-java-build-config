@@ -17,6 +17,10 @@
         <property name="eachLine" value="true"/>
     </module>
 
+    <module name="LineLength">
+        <property name="max" value="150" />
+    </module>
+
     <module name="TreeWalker">
         <property name="tabWidth" value="4"/>
 
@@ -108,9 +112,6 @@
         <module name="ParameterName"/>
         <module name="StaticVariableName"/>
 
-        <module name="LineLength">
-            <property name="max" value="150" />
-        </module>
         <module name="ParameterNumber"/>
 
         <module name="EmptyForIteratorPad"/>
